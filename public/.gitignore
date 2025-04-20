@@ -1,0 +1,9 @@
+# node_modules should not be tracked
+node_modules/
+
+# Logs and system files
+*.log
+.DS_Store
+
+# Environment variables
+.env

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Socket Chat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="chat-card">
+      <h1>Live Chat</h1>
+
+      <ul id="messages" class="messages">
+        <li class="empty">No messages yet. Open this page in another tab or window to start chatting.</li>
+      </ul>      
+
+      <form id="form" autocomplete="off">
+        <input id="input" placeholder="Type a message…" />
+        <button>Send</button>
+      </form>
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+  </body>
+</html>
